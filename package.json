@@ -1,0 +1,18 @@
+{
+  "name": "tf-serving-apis",
+  "version": "0.0.2",
+  "description": "APIs for tf serving for grpc-web",
+  "main": "index.js",
+  "author": "Raghav Anand",
+  "license": "CC",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.3.0",
+    "google-protobuf": "^3.6.1",
+    "grpc": "^1.15.0",
+    "grpc-web": "^1.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  }
+}
