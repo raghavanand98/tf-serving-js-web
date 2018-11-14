@@ -1,9 +1,10 @@
 {
-  "name": "tf-serving-apis",
-  "version": "0.0.2",
-  "description": "APIs for tf serving for grpc-web",
+  "name": "tf-serving-js-web",
+  "version": "1.0.0",
+  "description": "Compiled TF serving protobufs in javascript for use in GRPC Web",
   "main": "index.js",
   "author": "Raghav Anand",
+  "keywords": ["tensorflow", "serving", "apis", "protobuf", "prediction", "tf"],
   "license": "CC",
   "dependencies": {
     "@grpc/proto-loader": "^0.3.0",
@@ -14,5 +15,9 @@
   "devDependencies": {
     "webpack": "^4.16.5",
     "webpack-cli": "^3.1.0"
-  }
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/raghavanand98/tf-serving-js-web"
+    }
 }
